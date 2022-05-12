@@ -1,0 +1,10 @@
+
+module string_operations
+{
+  interface string_1
+  {
+    string concatstring(in string a,in string b);
+    string lengthstring(in string a);
+    string comparestring(in string a,in string b);
+  };
+};
